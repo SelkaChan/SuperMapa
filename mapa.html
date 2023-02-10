@@ -17,15 +17,15 @@
     </div>
     <div class="row">
       <div class="col d-flex justify-content-around">
-        <button class="btn btn-warning">Arriba</button>
-        <button class="btn btn-warning">Abajo</button>
-        <button class="btn btn-warning">Derecha</button>
-        <button class="btn btn-warning">Izquierda</button>
+        <button onclick="subir()" class="btn btn-warning">Arriba</button>
+        <button onclick="bajar()" class="btn btn-warning">Abajo</button>
+        <button onclick="derecha()" class="btn btn-warning">Derecha</button>
+        <button onclick="izquierda()" class="btn btn-warning">Izquierda</button>
         <button onclick="ampliar()" class="btn btn-warning">Zoom +</button>
         <button onclick="desampliar()" class="btn btn-warning">Zoom -</button>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col">
         <super-mapa ancho="700" alto="700" precision="1"></super-mapa>
       </div>
